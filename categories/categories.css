@@ -93,12 +93,17 @@ header {
 
 .add-button {
     padding: 10px 20px;
-    background-color: #28a745;
+    background-color: #5c5c5c;
     border: none;
     color: white;
     border-radius: 5px;
     margin-bottom: 20px;
     cursor: pointer;
+}
+
+.add-button a{
+    text-decoration: none;
+    color: #ffffff;
 }
 
 .add-button:hover {

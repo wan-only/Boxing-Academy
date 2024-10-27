@@ -45,8 +45,9 @@ body, html {
     display: inline-block;
 }
 
+
 h2 {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     font-size: 28px;
 }
 
@@ -61,6 +62,7 @@ label {
     display: block;
 }
 
+input[type="text"],
 input[type="email"],
 input[type="password"] {
     width: 100%;
@@ -71,7 +73,7 @@ input[type="password"] {
     background-color: #333;
     color: #fff;
 }
-
+input[type="email"]::placeholder,
 input[type="email"]::placeholder,
 input[type="password"]::placeholder {
     color: #888;
@@ -116,6 +118,7 @@ input[type="password"]::placeholder {
 .login-form p a:hover {
     text-decoration: underline;
 }
+
 
 
 

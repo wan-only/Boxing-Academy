@@ -11,3 +11,24 @@ window.addEventListener('scroll', function () {
     }
 });
 
+// transisi popup
+document.getElementById('profileButton').addEventListener('click', function(event) {
+    event.preventDefault();
+    document.getElementById('popup').classList.add('active');
+});
+
+// Close Popup
+function closePopup() {
+    document.getElementById('popup').classList.remove('active');
+}
+
+function handleadmin() {
+   window.location.href='admin.html';
+}
+
+function handleuser(){
+    window.location.href='profile.html'
+}
+
+
+
